@@ -85,7 +85,7 @@ public class CassandraRoleManager implements IRoleManager
     private static final NoSpamLogger nospamLogger = NoSpamLogger.getLogger(logger, 1L, TimeUnit.MINUTES);
 
     public static final String DEFAULT_SUPERUSER_NAME = "cassandra";
-    public static final String DEFAULT_SUPERUSER_PASSWORD = "cassandra";
+    public static final String DEFAULT_SUPERUSER_PASSWORD = "cassandratest123";
 
     /**
      * We need to treat the default superuser as a special case since during initial node startup, we may end up with
