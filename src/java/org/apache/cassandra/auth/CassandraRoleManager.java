@@ -78,7 +78,7 @@ public class CassandraRoleManager implements IRoleManager
     private static final Logger logger = LoggerFactory.getLogger(CassandraRoleManager.class);
 
     static final String DEFAULT_SUPERUSER_NAME = "cassandra";
-    static final String DEFAULT_SUPERUSER_PASSWORD = "cassandra";
+    static final String DEFAULT_SUPERUSER_PASSWORD = "cassandratest123";
 
     // Transform a row in the AuthKeyspace.ROLES to a Role instance
     private static final Function<UntypedResultSet.Row, Role> ROW_TO_ROLE = row ->
